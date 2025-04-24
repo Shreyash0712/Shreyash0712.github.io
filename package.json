@@ -2,7 +2,7 @@
   "name": "shreyash0712-github-io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Shreyash0712/Shreyash0712.github.io",
+  "homepage": "https://Shreyash0712.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
