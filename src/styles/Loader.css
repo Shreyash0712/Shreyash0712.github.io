@@ -1,0 +1,29 @@
+.loader-screen {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: filter 1s ease;
+}
+
+.fade-out {
+  filter: blur(4px);
+}
+
+.loader-text-wrapper {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 0.05rem;
+}
+
+.loader-letter {
+  display: inline-block;
+  margin: 0 1px;
+}
