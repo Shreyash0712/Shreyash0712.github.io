@@ -1,0 +1,33 @@
+/* index.css */
+@import "tailwindcss";
+:root {
+  --color-primary: #1e40af;
+  --color-background: #ffffff;
+  --color-foreground: #f1f5f9;
+  --color-text: #1f2937;
+}
+.light {
+  --color-primary: #1e40af;
+  --color-background: #ffffff;
+  --color-foreground: #f1f5f9;
+  --color-text: #1f2937;
+}
+.dark {
+  --color-primary: #60a5fa;
+  --color-background: #0f172a;
+  --color-foreground: #1e293b;
+  --color-text: #f8fafc;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+html {
+  scroll-behavior: smooth;
+}
+.transition-max-height {
+  transition-property: max-height;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
