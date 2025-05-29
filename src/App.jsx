@@ -39,8 +39,8 @@ const App = () => {
         <div className="h-screen">
           <section id="intro" className="scroll-mt-16 text-center">
             <h1 className="text-4xl font-bold mb-2">Hi, I'm Shrey!</h1>
-            <p className="text-gray-600 dark:text-gray-300">
-              Welcome to my personal portfolio website built with React and Tailwind CSS.
+            <p className="text-primary text-4xl mt-16 mb-16">
+              Work in Progress
             </p>
           </section>
 
