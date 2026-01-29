@@ -1,6 +1,6 @@
 import type { Theme, Data, Blog } from '../types';
 
-const API_URL = import.meta.env.VITE_API_URL + '/api';
+const API_URL = import.meta.env.REACT_APP_API_BASE_URL + '/api';
 
 const getToken = () => localStorage.getItem('token');
 
